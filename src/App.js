@@ -4,12 +4,13 @@ import './App.css';
 // import ReducerTutorial from './useReducer/ReducerTutorial';
 // import EffectTutorial from './useEffect/EffectTutorial';
 // import RefTutorial from './useRef/RefTutorial';
-import UseLayoutEffect from './useLayoutEffect/LayoutEffectTutorial';
+// import UseLayoutEffect from './useLayoutEffect/LayoutEffectTutorial';
+import ImperativeHandle from './useImperativeHandle/ImperativeHandle';
 
 function App() {
   return (
     <div className="App">
-      <UseLayoutEffect />
+      <ImperativeHandle />
     </div>
   );
 }
