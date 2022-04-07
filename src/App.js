@@ -7,12 +7,13 @@ import './App.css';
 // import UseLayoutEffect from './useLayoutEffect/LayoutEffectTutorial';
 // import ImperativeHandle from './useImperativeHandle/ImperativeHandle';
 // import ContextTutorial from './useContext/ContextTutorial';
-import MemoTutorial from './useMemo/MemoTutorial';
+// import MemoTutorial from './useMemo/MemoTutorial';
+import CallbackTutorial from './useCallback/CallbackTutorial';
 
 function App() {
   return (
     <div className="App">
-      <MemoTutorial />
+      <CallbackTutorial />
     </div>
   );
 }
