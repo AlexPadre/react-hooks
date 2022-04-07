@@ -5,12 +5,13 @@ import './App.css';
 // import EffectTutorial from './useEffect/EffectTutorial';
 // import RefTutorial from './useRef/RefTutorial';
 // import UseLayoutEffect from './useLayoutEffect/LayoutEffectTutorial';
-import ImperativeHandle from './useImperativeHandle/ImperativeHandle';
+// import ImperativeHandle from './useImperativeHandle/ImperativeHandle';
+import ContextTutorial from './useContext/ContextTutorial';
 
 function App() {
   return (
     <div className="App">
-      <ImperativeHandle />
+      <ContextTutorial />
     </div>
   );
 }
